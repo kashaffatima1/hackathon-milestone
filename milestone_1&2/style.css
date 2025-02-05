@@ -1,0 +1,82 @@
+body {
+    background-color: #ffffff; /* White background */
+    color: #002366; /* Dark blue text */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-left: 20px; /* Add some margin to the left */
+}
+
+h1{
+    color: blue; /* Dark blue heading */
+    font-size: 36pt;
+    text-align: center;
+}
+
+h3 {
+    color: #002366; /* Dark blue subheadings */
+    text-align: left;
+    font-weight: bolder;
+    font-size: 28pt;
+}
+
+a {
+    color: #002366; /* Dark blue links */
+    text-decoration: underline;
+}
+
+p {
+    text-align: left;
+    font-size: 12pt;
+}
+
+ul {
+    color: #002366; /* Dark blue list items */
+    text-align: left;
+    list-style-position: inside;
+}
+
+li {
+    color: #002366; /* Dark blue list items */
+    text-align: left;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.resume_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; /* Add padding for a cleaner look */
+    background-color: #f8f9fa; /* Light grey background for the container */
+    border-radius: 8px;
+    border: 1px solid #002366; /* Dark blue border */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #002366; /* Dark blue lines */
+}
+
+button {
+    display: block;
+    background-color: #002366; /* Dark blue button */
+    color: #ffffff;
+    font-size: 16px;
+    align-items: center;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.hidden {
+    display: none;
+}
